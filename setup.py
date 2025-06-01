@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="eds",
+    name="easy-download-solution",
     version="1.0.0",
     py_modules=[],
     packages=["eds"],
