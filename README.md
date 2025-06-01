@@ -12,10 +12,12 @@ Simple CLI tool to download YouTube videos/audio using yt-dlp, save files with n
 
 ## Install
 
-```bash
+bash
 pip install eds
 ## Usage
-`eds <url> [-a] [-v] [-q QUALITY] [-p PATH] [-d]`
+```
+eds <url> [-a] [-v] [-q QUALITY] [-p PATH] [-d]
+```
 
 -a, --audio — download audio only
 
@@ -30,4 +32,6 @@ pip install eds
 -h, --help — show help
 
 ## Example
-`eds https://youtube.com/watch?v=abc123 -a -q 192`
+```
+eds https://youtube.com/watch?v=abc123 -a -q 192`
+```
